@@ -1,0 +1,91 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1597733336794-12d05021d510?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fHRlY2hub2xvZ3l8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+  }
+  
+  .container {
+    opacity: 0.8;
+    width: 400px;
+    margin: 100px auto;
+    background-color: #01041ffb;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 2px rgba(13, 12, 12, 0.1);
+    backdrop-filter: blur(150px);
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+    margin-bottom: 50px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    font-family: cursive;
+    align-self: flex-start;
+    font-size: 18px;
+    color: #fffffff5;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input[type="text"], input[type="password"] {
+    color: #02242c;
+    width: 90%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px rgba(210, 198, 198, 0.1);
+  }
+  input[type="text"]:hover, input[type="password"]:hover{
+    background-color: rgb(148, 195, 235);
+
+  }
+  
+  button[type="submit"] {
+    font-family:monospace;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #031c38;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #357fce;
+  }
+  
+  .forgot-password {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .forgot-password a:hover {
+    color: #0062cc;
+  }
+  a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  img{
+    border: #0062cc;
+  }
+  
